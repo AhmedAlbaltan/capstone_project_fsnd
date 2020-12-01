@@ -37,15 +37,10 @@ Setting the `FLASK_APP` variable to `app` directs flask to use the `app` file to
 
 
 Project deployed at:
-https://git.heroku.com/capstoneappfsnd.git
+https://capstoneappfsnd.herokuapp.com/
 
 
-casting-assistant@test.com
 
-casting-director@test.com
-
-
-producer@test.com
 OATH login url. There are three logins atm, JWTs for these appear in the url after successfull login. Those tokens are needed to test the different APIs.
 https://udacity-fsnd-lastpro.eu.auth0.com/authorize?audience=CastingAgency&response_type=token&client_id=uOOJ5SPoziP2m96Z5SqN4qPAL5OVOTrF&redirect_uri=https://localhost:8000/
 
