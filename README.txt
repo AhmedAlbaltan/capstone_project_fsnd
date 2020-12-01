@@ -10,7 +10,7 @@ This project is the last project in Udacity-FSND where users can answer some tri
 Getting started
 
 
-This project depends on Nodejs and Node Package Manager (NPM).Python and pip.
+This project depends onPython and pip.
 
 Installing project dependencies
 
@@ -22,7 +22,7 @@ This will install all of the required packages we selected within the `requireme
 
 Running the server
 
-From within the `backend` directory first ensure you are working using your created virtual environment.
+first ensure you are working using your created virtual environment.
 
 To run the server, execute:
 
@@ -36,9 +36,9 @@ Setting the `FLASK_ENV` variable to `development` will detect file changes and r
 Setting the `FLASK_APP` variable to `app` directs flask to use the `app` file to find the application. 
 
 
-
+Project deployed at:
 https://git.heroku.com/capstoneappfsnd.git
-postgresql-tapered-77881
+
 
 casting-assistant@test.com
 
@@ -46,11 +46,17 @@ casting-director@test.com
 
 
 producer@test.com
-
+OATH login url. There are three logins atm, JWTs for these appear in the url after successfull login. Those tokens are needed to test the different APIs.
 https://udacity-fsnd-lastpro.eu.auth0.com/authorize?audience=CastingAgency&response_type=token&client_id=uOOJ5SPoziP2m96Z5SqN4qPAL5OVOTrF&redirect_uri=https://localhost:8000/
 
+casting-assistant@test.com pass:Test123!
+
+casting-director@test.com pass: Test123
+
+producer@test.com pass:Test123!
 
 
+https://capstoneappfsnd.herokuapp.com/
 
 
 
