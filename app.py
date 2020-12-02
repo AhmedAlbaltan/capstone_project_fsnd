@@ -23,11 +23,6 @@ def create_app(test_config=None):
         
         return response
 
-    '''
-    @TODO uncomment the following line to initialize the datbase
-    !! NOTE THIS WILL DROP ALL RECORDS AND START YOUR DB FROM SCRATCH
-    !! NOTE THIS MUST BE UNCOMMENTED ON FIRST RUN
-    '''
 
     ## ROUTES
 
@@ -176,11 +171,6 @@ def create_app(test_config=None):
                 abort(500)
         else:
             abort(404)
-        
-
-
-        
-
         
 
     ## Error Handling
