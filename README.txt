@@ -1,7 +1,13 @@
 Introduction 
 
-This project is my last project for Udacity's  FSND. 
-This project is 
+This project is my last project for Udacity's FSND.
+This application is a casting agency that links between movie creators and actors.
+This application lets you list all movies and all actors, add a new movie or actor, udate a movie or an actor and remove a movie or an actor.
+
+
+Motivation:
+
+In this project I applied everything i learned in this program. Starting from Database modeling to creating a restful APIs and deploying it to a live server.
 
 Getting started
 
