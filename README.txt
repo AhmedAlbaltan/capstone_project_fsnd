@@ -171,3 +171,6 @@ python test_app.py
 ```
 Omit the dropdb command the first time you run tests
 
+Author
+
+This project was created by Ahmed Albaltan
