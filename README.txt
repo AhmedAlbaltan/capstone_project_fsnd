@@ -41,17 +41,22 @@ https://capstoneappfsnd.herokuapp.com/
 
 
 
-OATH login url. There are three logins atm, JWTs for these appear in the url after successfull login. Those tokens are needed to test the different APIs.
+This app connects to a Postgres server hosted in Heroku. An account login with specific permissions is needed in order to view, add, update, and remove movies and actors. These are specified below.
+
+Producer login (can view, add, edit, and remove movies and actors):
+* email: producer@test.com
+* password: Test123!
+Casting director login (can view, add and edit only):
+* email: casting-director@test.com
+* password: Test123!
+
+Casting assistant login (can view actors and movies only):
+* email: casting-assistant@test.com
+* password: Test123!
+
+OATH login url. JWTs for these appear in the url after successfull login. Those tokens are needed to test the different APIs.
 https://udacity-fsnd-lastpro.eu.auth0.com/authorize?audience=CastingAgency&response_type=token&client_id=uOOJ5SPoziP2m96Z5SqN4qPAL5OVOTrF&redirect_uri=https://localhost:8000/
 
-casting-assistant@test.com pass:Test123!
-
-casting-director@test.com pass: Test123
-
-producer@test.com pass:Test123!
-
-
-https://capstoneappfsnd.herokuapp.com/
 
 
 
