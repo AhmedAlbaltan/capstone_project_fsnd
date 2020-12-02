@@ -68,6 +68,7 @@ HTTP Status Codes
 401 - Unauthorized (The request requires user authentication)
 403 - Forbidden (The server understood the request, but is refusing to fulfill it)
 404 - Not Found (The requested resource doesn't exist)
+500 - internal server error (the request is ok but there's an error in the server)
 
 Base URL
 
