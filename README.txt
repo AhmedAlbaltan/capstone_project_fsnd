@@ -56,7 +56,7 @@ Casting assistant login (can view actors and movies only):
 * email: casting-assistant@test.com
 * password: Test123!
 
-OATH login url. JWTs for these appear in the url after successfull login. Those tokens are needed to test the different APIs.
+AUTH0 login url. JWTs for these appear in the url after successfull login. Those tokens are needed to test the different APIs.
 https://udacity-fsnd-lastpro.eu.auth0.com/authorize?audience=CastingAgency&response_type=token&client_id=uOOJ5SPoziP2m96Z5SqN4qPAL5OVOTrF&redirect_uri=https://localhost:8000/
 
 
